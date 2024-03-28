@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+const Title = (
+  <h1 id="path" key="h2">
+    hello React
+  </h1>
+);
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {Title}
+      <h1>Hello this is h1 tag </h1>
+      <h2>Hello Suraj</h2>
     </div>
   );
-}
+};
+
+//composing components
 
 export default App;
