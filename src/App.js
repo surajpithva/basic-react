@@ -1,19 +1,65 @@
-const Title = (
-  <h1 id="path" key="h2">
-    hello React
-  </h1>
+import "./style.css";
+import food from "./assests/foodv.png";
+import burger from "./assests/burger.png";
+
+const Title = () => (
+  <a href="">
+    {" "}
+    <img src={food} alt="" className="logo" />{" "}
+  </a>
 );
 
-const App = () => {
+const Header = () => {
   return (
-    <div>
-      {Title}
-      <h1>Hello this is h1 tag </h1>
-      <h2>Hello Suraj</h2>
+    <div className="header">
+      <Title />
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Contact</li>
+          <li>Cart</li>
+        </ul>
+      </div>
     </div>
   );
 };
 
-//composing components
+const burgerking = {
+  img: { burger },
+  name: "burger king",
+  cusines: ["burger", "american"],
+  rating: "4.2",
+};
 
-export default App;
+//
+const RestrauntCard = () => {
+  return (
+    <div className="card">
+      <img src={burgerking.img} alt="" />
+      <h2>{burgerking.name}</h2>
+      <h3>{burgerking.cusines.join(", ")}</h3>
+      <h4>{burgerking.rating} stars</h4>
+    </div>
+  );
+};
+
+const Body = () => {
+  return <RestrauntCard />;
+};
+
+const Footer = () => {
+  return <h4>Footer</h4>;
+};
+
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  );
+};
+
+export default AppLayout;
