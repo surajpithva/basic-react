@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "siddharth",
+      "email": "sid@uptake.com",
+      "collage": "Gls university",
+      "image": "https://media.licdn.com/dms/image/D4D03AQFBTCRT5f0UuQ/profile-displayphoto-shrink_800_800/0/1683043388653?e=2147483647&v=beta&t=YXkZlyzIbOP4EAZWD6KlR8leKpTMDpoBpd9i_Xfa5zk"
+    },
+    {
+      "id": 2,
+      "name": "suraj",
+      "email": "surajpithva5101@gmail.com",
+      "collage": "GTU university",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 3,
+      "name": "aamir",
+      "email": "aamirshaikh@gmail.com",
+      "collage": "GU university",
+      "image": "https://media.licdn.com/dms/image/D4D03AQFQglFIqoZg1g/profile-displayphoto-shrink_100_100/0/1687838521936?e=2147483647&v=beta&t=AR2EyT0mgC70-pLgX38iJ-CKbp6d8ak-s-WgLaLyVUQ"
+    },
+    {
+      "id": 4,
+      "name": "jainik bhai",
+      "email": "jainik@uptake.com",
+      "collage": "Parul university",
+      "image": "https://media.licdn.com/dms/image/D5603AQGG_jjFAVliIg/profile-displayphoto-shrink_800_800/0/1673271961287?e=2147483647&v=beta&t=Meqq7cI4deoBD-r2DIujhZ0IePOQMiu20d56QsKYjgY"
+    },
+    {
+      "id": 5,
+      "name": "kevin bhai",
+      "email": "kevin@gmail.com",
+      "collage": "VNGU university",
+      "image": "https://media.licdn.com/dms/image/D4D03AQFrXUpuVPwXpw/profile-displayphoto-shrink_200_200/0/1673774752812?e=2147483647&v=beta&t=MVODrFUka8LL8HSJXoxai4B2_1Ie_-WKMTtYoJMDDo4"
+    }
+  ]
+}
